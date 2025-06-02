@@ -118,6 +118,31 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #e5e5e5;
     border-radius: var(--radius-lg);
     margin: var(--spacing-lg) 0;
+    margin: var(--spacing-lg) 0;
+    background: white;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.map-container iframe {
+    display: block;
+    margin: 0;
+}
+
+.map-info {
+    padding: var(--spacing-md) var(--spacing-lg);
+    background: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.map-info p {
+    margin: var(--spacing-xs) 0;
+    color: var(--color-dark);
+}
+
+.map-info strong {
+    color: var(--color-primary);
 }
 
 /* Weather Section */
